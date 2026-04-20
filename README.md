@@ -1,5 +1,7 @@
 # Deepfake Detection using Lightweight Hybrid Spatial–Temporal Framework
-A lightweight hybrid deepfake detection system combining spatial and temporal features for efficient real-world deployment.
+A lightweight hybrid deepfake detection system combining spatial and temporal features for efficient real-
+world deployment.
+
 ## 🚀 Overview
 This project implements a lightweight deepfake detection system that combines spatial features from
 pretrained CNNs with statistical temporal modeling. The goal is to achieve high accuracy while maintaining 
