@@ -25,8 +25,8 @@ This project implements a lightweight deepfake detection system that combines sp
 | Accuracy | 94.84% |
 | AUC | 0.94 |
 
-![Heat Map](heat_map.jepg)
-![Cross-validated result](result.jpeg)
+![Cross-validated result](results.jpeg)
+![Heat Map](heat_map.jpeg)
 
 ## 🛠️ Tech Stack
 - Python
