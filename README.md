@@ -25,6 +25,7 @@ This project implements a lightweight deepfake detection system that combines sp
 | Accuracy | 94.84% |
 | AUC | 0.94 |
 
+![Pipeline](pipeline.jpeg)
 
 ## 🛠️ Tech Stack
 - Python
