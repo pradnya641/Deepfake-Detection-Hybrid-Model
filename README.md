@@ -4,7 +4,7 @@
 This project implements a lightweight deepfake detection system that combines spatial features from pretrained CNNs with statistical temporal modeling. The goal is to achieve high accuracy while maintaining low computational complexity.
 
 ## 🧠 Pipeline
-
+![Pipeline](pipeline.jpeg)
 1. Frame extraction
 2. EfficientNet feature extraction
 3. Temporal β feature computation
@@ -25,7 +25,8 @@ This project implements a lightweight deepfake detection system that combines sp
 | Accuracy | 94.84% |
 | AUC | 0.94 |
 
-![Pipeline](pipeline.jpeg)
+![Heat Map](heat_map.jepg)
+![Cross-validated result](result.jpeg)
 
 ## 🛠️ Tech Stack
 - Python
