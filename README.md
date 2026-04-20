@@ -1,27 +1,40 @@
-# Deepfake Detection using Hybrid Spatial-Temporal Framework
+# Deepfake Detection using Lightweight Hybrid Spatial–Temporal Framework
 
 ## 🚀 Overview
-This project implements a lightweight deepfake detection system combining spatial features and temporal modeling.
+This project implements a lightweight deepfake detection system that combines spatial features from pretrained CNNs with statistical temporal modeling. The goal is to achieve high accuracy while maintaining low computational complexity.
 
-## 🧠 Method
-- EfficientNet-B0 for spatial features
-- Temporal β-feature extraction
-- Hanning window aggregation
-- PCA + SVM classification
+## 🧠 Methodology
+- Spatial feature extraction using EfficientNet-B0
+- Temporal modeling using frame-wise β-features
+- Hanning window-based aggregation
+- Dimensionality reduction using PCA
+- Classification using Support Vector Machine (SVM)
 
 ## 📊 Results
-- AUC: 0.94
-- Accuracy: 94.84%
+- Accuracy: **94.84%**
+- AUC: **0.94**
 - Dataset: Celeb-DF-v2
 
 ## 🛠️ Tech Stack
-Python, PyTorch, OpenCV, Scikit-learn
+- Python
+- PyTorch
+- OpenCV
+- NumPy
+- Scikit-learn
 
 ## ⚙️ How to Run
-Open the notebook and run all cells.
+1. Open the notebook `DEEPFAKE_FINAL.ipynb`
+2. Run all cells sequentially
 
 ## 📁 Dataset
-Dataset not included. Download Celeb-DF-v2 separately.
+Dataset is not included due to size constraints.  
+Download Celeb-DF-v2 from:  
+https://github.com/yuezunli/celeb-deepfakeforensics
 
-## 📌 Note
-This repository contains the implementation corresponding to the research paper.
+## 📌 Highlights
+- Lightweight alternative to heavy deep learning models
+- Combines spatial + temporal features efficiently
+- Suitable for real-world deployment
+
+## 📎 Note
+This repository contains the implementation corresponding to a research paper submitted to IEEE conference (IGNITE 2026).
