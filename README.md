@@ -2,9 +2,7 @@
 A lightweight hybrid deepfake detection system combining spatial and temporal features for efficient real-world deployment.
 
 ## 🚀 Overview
-This project implements a lightweight deepfake detection system that combines spatial features from
-pretrained CNNs with statistical temporal modeling. The goal is to achieve high accuracy while maintaining 
-low computational complexity.
+This project implements a lightweight deepfake detection system that combines spatial features from pretrained CNNs with statistical temporal modeling. The goal is to achieve high accuracy while maintaining  low computational complexity.
 
 ## 🧠 Pipeline
 ![Pipeline](pipeline.jpeg)
@@ -14,7 +12,7 @@ low computational complexity.
 4. Hanning window aggregation
 5. PCA + SVM classification
 
-## 🧠 Methodology
+## ⚙️ Methodology
 - Spatial feature extraction using EfficientNet-B0
 - Temporal modeling using frame-wise β-features
 - Hanning window-based aggregation
@@ -53,9 +51,7 @@ https://github.com/yuezunli/celeb-deepfakeforensics
 - Suitable for real-world deployment
 
 ## ⚡ Summary
-EfficientNet extracts spatial features → temporal differences captured → PCA reduces dimensionality → SVM
-performs classification.
+EfficientNet extracts spatial features → temporal differences captured → PCA reduces dimensionality → SVM performs classification.
 
 ## 📎 Note
-This repository contains the implementation corresponding to a research paper submitted to IEEE conference
-(IGNITE 2026).
+This repository contains the implementation corresponding to a research paper submitted to IEEE conference (IGNITE 2026).
